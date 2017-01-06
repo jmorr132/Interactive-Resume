@@ -7,6 +7,7 @@ var bio ={
         "email": "j.morrissette@jamdevs.com",
         "github" :"https://github.com/jmorr132",
         "linkedin":"https://www.linkedin.com/in/jasonmorrissette",
+        "hackerrank": "https://www.hackerrank.com/j_morrissette",
         "location":"Seattle, Wa"
     },
     "welcomeMessage": "its a small world afterall",
@@ -27,7 +28,7 @@ var education={
         "name": "Udacity",
         "years": "2016",
         "major": "Computer Science",
-        "degree": "Full Stack Developer Nano Degree"
+        "degree": "Full Stack Developer NanoDegree"
     }
     ]
 };
@@ -88,7 +89,8 @@ bio.display = function(){
         HTMLmobile.replace('%data%', bio.contacts.mobile),
         HTMLemail.replace('%data%', bio.contacts.email),
         HTMLgithub.replace('%data%', bio.contacts.github),
-        HTMLlinkedin.replace("%data%", bio.contacts.linkedin)   
+        HTMLlinkedin.replace("%data%", bio.contacts.linkedin), 
+        HTMLhackerrank.replace("%data%", bio.contacts.hackerrank)  
         );
 }
 
