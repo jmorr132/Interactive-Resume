@@ -26,7 +26,7 @@ var education={
     },
     {
         "name": "Udacity",
-        "years": "2016",
+        "years": "2016-2017",
         "major": "Computer Science",
         "degree": "Full Stack Developer NanoDegree"
     }
@@ -58,7 +58,7 @@ var work = {
     
 
 }],
-    "display":''
+    
 };
 var projects={
 
